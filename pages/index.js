@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../src/components/commons/Footer";
 import Menu from "../src/components/commons/Menu";
 import { Button } from "../src/components/commons/Button";
 import { Grid } from "../src/components/foundation/Grid";
 import { Box } from "../src/components/foundation/layout/Box";
 import { Text } from "../src/components/foundation/Text/index";
+import Modal from "../src/components/commons/Modal";
 
 export default function Home() {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <Box
       flex="1"
@@ -18,6 +21,18 @@ export default function Home() {
       backgroundRepeat="no-repeat"
       backgroundPosition="bottom right"
     >
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => {
+          setModalOpen(false);
+        }}
+      >
+        {(propsDoModal) => (
+          <Box backgroundColor="white" {...propsDoModal}>
+            <div>Olha eu aqui!</div>
+          </Box>
+        )}
+      </Modal>
       <Menu />
 
       <Grid.Container
@@ -67,6 +82,9 @@ export default function Home() {
               }}
               display="block"
               variant="primary.main"
+              onClick={() => {
+                setModalOpen(!isModalOpen);
+              }}
             >
               Cadastrar
             </Button>
