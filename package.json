@@ -8,6 +8,7 @@
     "start": "node_modules/next/dist/bin/next start -p $PORT"
   },
   "dependencies": {
+    "@crello/react-lottie": "^0.0.11",
     "framer-motion": "^3.7.0",
     "lodash": "^4.17.20",
     "next": "latest",
