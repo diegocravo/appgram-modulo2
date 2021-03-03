@@ -126,7 +126,6 @@ const FormContent = () => {
               autoplay: true,
             }}
           />
-          {/* https://lottiefiles.com/43920-success-alert-icon */}
         </Box>
       )}
 
@@ -141,7 +140,6 @@ const FormContent = () => {
               autoplay: true,
             }}
           />
-          {/* https://lottiefiles.com/43920-success-alert-icon */}
         </Box>
       )}
     </form>
