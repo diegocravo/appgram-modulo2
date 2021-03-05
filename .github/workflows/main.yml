@@ -27,9 +27,9 @@ jobs:
       ###############################################################################
 
       # Runs a single command using the runners shell
-      - name: Roda o Linter!
-        run: yarn lint
       - name: install de dependências
         run: yarn install
       - name: Roda o Linter!
         run: yarn lint
+      - name: Roda o Linter!
+        run: yarn lint   
