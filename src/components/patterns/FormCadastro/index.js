@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import { Lottie } from "@crello/react-lottie";
 import { Button } from "../../commons/Button";
 import TextField from "../../forms/TextField";
 import { Grid } from "../../foundation/Grid";
 import { Box } from "../../foundation/layout/Box";
 import { Text } from "../../foundation/Text";
-import { Lottie } from "@crello/react-lottie";
 import errorAnimation from "./animations/error.json";
 import sucessAnimation from "./animations/success.json";
 
