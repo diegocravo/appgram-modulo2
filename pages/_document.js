@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable implicit-arrow-linebreak */
+import React from "react";
 import Document from "next/document";
 import { ServerStyleSheet } from "styled-components";
 

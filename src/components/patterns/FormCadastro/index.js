@@ -1,3 +1,6 @@
+/* eslint-disable operator-linebreak */
+/* eslint-disable react/prop-types */
+/* eslint-disable arrow-body-style */
 import React, { useState } from "react";
 import { Lottie } from "@crello/react-lottie";
 import { Button } from "../../commons/Button";

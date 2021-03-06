@@ -1,3 +1,6 @@
+/* eslint-disable operator-linebreak */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable import/prefer-default-export */
 import styled, { css } from "styled-components";
 import get from "lodash/get";
 import { breakpointsMedia } from "../../../theme/utils/breakpointsMedia";

@@ -1,3 +1,6 @@
+/* eslint-disable arrow-body-style */
+/* eslint-disable quotes */
+/* eslint-disable comma-dangle */
 import React from "react";
 import PropTypes from "prop-types";
 import styled, { createGlobalStyle, css } from "styled-components";

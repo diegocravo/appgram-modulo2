@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-props-no-spreading */
 import React from "react";
 import { ThemeProvider } from "styled-components";
+import Head from "next/head";
 import theme from "../src/theme";
 import { GlobalStyle } from "../src/theme/GlobalStyle";
-import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   return (
