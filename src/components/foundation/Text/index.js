@@ -1,3 +1,7 @@
+/* eslint-disable object-curly-newline */
+/* eslint-disable no-unused-vars */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable indent */
 import React from "react";
 import PropTypes from "prop-types";
 import get from "lodash/get";
@@ -56,7 +60,7 @@ const TextBase = styled.span`
     //   text-align: ${props.textAlign};
     // `
   }} */
-  /* ${(props) => TextStyleVariantsMap["paragraph1"]} */
+  /* ${(props) => TextStyleVariantsMap.paragraph1} */
 `;
 
 export function Text({ tag, variant, children, ...props }) {
