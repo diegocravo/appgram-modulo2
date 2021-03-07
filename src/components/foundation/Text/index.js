@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 /* eslint-disable object-curly-newline */
 /* eslint-disable no-unused-vars */
 /* eslint-disable implicit-arrow-linebreak */
@@ -49,7 +50,6 @@ const TextBase = styled.span`
   ${propToStyle("textAlign")}
   ${propToStyle("marginBottom")}
   ${propToStyle("margin")} /* ${function (props) {
-    console.log("Props, funcao executou");
     return propToStyle("textAlign", props);
   }} */
   /* ${function (props) {

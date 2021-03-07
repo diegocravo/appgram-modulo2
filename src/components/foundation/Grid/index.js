@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 /* eslint-disable indent */
 /* eslint-disable import/prefer-default-export */
 import styled, { css } from "styled-components";
