@@ -42,7 +42,6 @@ const FormContent = () => {
     <form
       onSubmit={(event) => {
         event.preventDefault();
-        console.log("At'e aqui t'a ok");
 
         setIsFormSubmited(true);
 
