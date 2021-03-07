@@ -39,7 +39,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": ""
+      "pre-push": "yarn lint"
     }
   },
   "license": "MIT",
