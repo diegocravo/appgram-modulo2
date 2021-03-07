@@ -40,7 +40,7 @@
   "husky": {
     "hooks": {
       "pre-push": "yarn lint",
-      "commit-msg": "commitlint  --edit $1"
+      "commit-msg": "commitlint --edit $1"
     }
   },
   "license": "MIT",
